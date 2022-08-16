@@ -31,7 +31,7 @@ const About = () => {
                     the technologies I work with or learning new ones.</p>
                 <p>Sports enjoyer, love to work out and go jogging.</p>
                 </div>
-                
+                <a className='cv-a' rel='noreferrer' target='_blank' href='https://docs.google.com/document/d/14FCAxcNo71baaozqb5JiNUplO8Azmr6xOwgMTVbG5YE/edit?usp=sharing'><h2 className='cv-link'>Check out my CV</h2></a>
             </div>
             <div className='draggable'>
             <motion.div className='container-motion' ref={constraintRef}>

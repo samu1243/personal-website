@@ -17,6 +17,7 @@
     right: 125px;
     font-size: 20px;
     font-family: 'La Belle Aurore';
+    animation: glow 6s ease-in-out infinite;
 }
 
 .bottom-tag-html {
@@ -68,6 +69,7 @@
               left: -10px;
               opacity: 0.6;
               line-height: 18px;
+              animation: glow 6s ease-in-out infinite;
             }
       
             &:after {
@@ -81,6 +83,7 @@
               bottom: -20px;
               margin-left: 20px;
               opacity: 0.6;
+              animation: glow 6s ease-in-out infinite;
             }
           }
       
@@ -109,6 +112,7 @@
             color: rgb(209, 76, 76);
             font-size: 18px;
             opacity: 0.6;
+            animation: glow 6s ease-in-out infinite;
         }
         &::after {
             content: '</p>';
@@ -116,6 +120,7 @@
             color: rgb(209, 76, 76);
             font-size: 18px;
             opacity: 0.6;
+            animation: glow 6s ease-in-out infinite;
         }
     }
     .text-animate-hover  {
@@ -123,4 +128,15 @@
             color: #fff;
         }
     }
+}
+@keyframes glow{
+  0%{
+      opacity: 0.6;
+  }
+  50%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 0.6;
+  }
 }

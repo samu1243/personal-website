@@ -1,7 +1,4 @@
 import './index.scss'
-import { useRef, useEffect } from 'react'
-import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
-import gsap from 'gsap-trial'
 import { motion } from 'framer-motion'
 
 const Logo = () => {

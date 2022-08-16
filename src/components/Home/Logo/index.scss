@@ -12,6 +12,7 @@
         font-size: 18px;
         margin-left: -20px;
         opacity: 0.6;
+        animation: glow 6s ease-in-out infinite;
     }
     &::after{
         content: '</svg>';
@@ -23,6 +24,7 @@
         bottom: 0;
         margin-left: 18px;
         margin-bottom: -20px;
+        animation: glow 6s ease-in-out infinite;
     }
 
     svg {
@@ -33,4 +35,16 @@
 .svg-container{
     stroke: rgb(209, 76, 76);
     stroke-width: 10;
+}
+
+@keyframes glow{
+    0%{
+        opacity: 0.6;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.6;
+    }
 }
