@@ -1,0 +1,36 @@
+.logo-container{ 
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    margin-top: 650px;
+    &::before{
+        content: '<svg>';
+        color: rgb(209, 76, 76);
+        font-family: 'La Belle Aurore';
+        position: absolute;
+        margin-top: -30px;
+        font-size: 18px;
+        margin-left: -20px;
+        opacity: 0.6;
+    }
+    &::after{
+        content: '</svg>';
+        color: rgb(209, 76, 76);
+        font-family: 'La Belle Aurore';
+        font-size: 18px;
+        opacity: 0.6;
+        position: absolute;
+        bottom: 0;
+        margin-left: 18px;
+        margin-bottom: -20px;
+    }
+
+    svg {
+        width: 100%;
+        height: auto;
+    }
+}
+.svg-container{
+    stroke: rgb(209, 76, 76);
+    stroke-width: 10;
+}

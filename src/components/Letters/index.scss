@@ -1,0 +1,27 @@
+.text-animate{
+    display: inline-block;
+    opacity: 0;
+    animation: fadeInDown 0.7s 1s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+    letter-spacing: 4px;
+
+}
+
+.text-animate-hover {
+    min-width: 10px;
+    display: inline-block;
+    animation-fill-mode: both;
+    letter-spacing: 4px;
+
+    &:hover {
+        animation: headShake 1s;
+        color: rgb(209, 76, 76);
+    }
+}
+
+@for $index from 1 through 42{
+    .text-animate._#{$index}{
+        animation-delay: #{$index / 10}s;
+    }
+}

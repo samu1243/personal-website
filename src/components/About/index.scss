@@ -1,0 +1,25 @@
+.container-motion {
+    width: 500px;
+    height: 500px;
+    display: block;
+    overflow: hidden;
+    place-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    margin: auto;
+    margin-right: 200px;
+    margin-top: 180px;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background: rgb(51, 50, 50);
+    border-radius: inherit;
+    cursor: grab;
+  }
+
+  .item-icon{
+    width: 100%;
+    height: 100%;
+  }
