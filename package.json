@@ -2,7 +2,7 @@
   "homepage": "http://samu1243.github.io/",
   "name": "portfolio-proyect",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@fortawesome/free-brands-svg-icons": "^6.1.2",
