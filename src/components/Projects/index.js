@@ -20,7 +20,7 @@ const Projects = ({index}) => {
             <h1>{<Letters letterClass={letterClass} strArray={nameArray} index={10}/>}</h1>
             </div>
             <div className='card-container'>
-                <Card className={'card'} title={'API Blog'} index={index} body={'Website created fetching api data, with custom cards.'}/>
+                <Card className={'card'} title={'API Blog'} index={index} body={'Website created fetching api data, with custom cards.'} glink={'https://github.com/samu1243/starwars-blog-api'}/>
                 <Card className={'card1'}title={'WoW Fan site'} index={index} body={'Full-Stack project to end my bootcamp. E-Commerce site.'}/>
             </div>
         </div>
