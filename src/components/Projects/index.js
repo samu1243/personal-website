@@ -2,7 +2,6 @@ import './index.scss'
 import Letters from '../Letters'
 import { useEffect, useState } from 'react'
 import Card from './Card'
-import blog from '../../assets/images/apiBlog.png'
 
 
 const Projects = ({index}) => {
