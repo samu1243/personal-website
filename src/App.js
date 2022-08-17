@@ -10,7 +10,7 @@ import Projects from "./components/Projects";
 function App() {
   return (
     <>
-    <Routes>
+    <Routes basename="/personal-website">
       <Route path='/' element={<Layout/>}>
       <Route index element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
