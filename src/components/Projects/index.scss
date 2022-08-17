@@ -47,23 +47,52 @@
         left: -20px;
         animation: glow 6s ease-in-out infinite;
     }
-    @keyframes glow{
-        0%{
-            opacity: 0.6;
-        }
-        50%{
-            opacity: 1;
-        }
-        100%{
-            opacity: 0.6;
-        }
-    }
 }
 
 .card-container{
-    width: 600px;
-    height: 500px;
+    width: 80%;
+    height: fit-content;
     position: absolute;
     right: 100px;
     bottom: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    &::before{
+        content: '<div>';
+        font-family: 'La Belle Aurore', cursive;
+        opacity: 0.6;
+        font-size: 18px;
+        color: rgb(209, 76, 76);
+        position: absolute;
+        left: -20px;
+        animation: glow 6s ease-in-out infinite;
+        top: 0;
+    }
+    &::after{
+        content: '</div>';
+        font-family: 'La Belle Aurore', cursive;
+        opacity: 0.6;
+        font-size: 18px;
+        line-height: 18px;
+        color: rgb(209, 76, 76);
+        position: absolute;
+        bottom: 0;
+        right: 10px;
+        animation: glow 6s ease-in-out infinite;
+    }
+}
+
+
+
+@keyframes glow{
+    0%{
+        opacity: 0.6;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.6;
+    }
 }

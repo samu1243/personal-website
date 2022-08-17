@@ -25,7 +25,7 @@ const Home = () => {
             <div className ='full-stack'>
                 <h1><Letters letterClass={letterClass} strArray={jobArray} index={23}/></h1>
                 <h2>Web Developer | React enthusiast</h2>
-                <Link to=''>
+                <Link to='/contact'>
                 <h3>Work with me</h3>
                 </Link>
             </div>
