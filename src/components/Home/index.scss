@@ -58,7 +58,7 @@
         color: #8d8d8d;
         font-family: sans-serif;
         margin-top: 15px;
-        animation: fadeIn 1s 1.8s backwards;
+        animation: fadeIn 1s 2.8s backwards;
 
         &::before {
             content: '<h2>';
@@ -92,7 +92,7 @@
         margin-left: 50px;
         border: 1px solid rgb(209, 76, 76);
         padding: 10px 18px;
-        animation: fadeIn 1s 2.1s backwards;
+        animation: fadeIn 1s 3.1s backwards;
         white-space: nowrap;
 
         &:hover {
@@ -113,3 +113,42 @@
         opacity: 0.6;
     }
 }
+
+@media (max-width: 768px) {
+    .home {
+        .title-text{
+            margin-left: 80px;
+            top: 15%;
+            max-width: 100%;
+            left: 3%;
+            h1{
+                font-size: 60px;
+                width: 500px;
+            }
+        }
+        .full-stack {
+            max-width: 100%;
+            bottom: 34%;
+            margin-left: 150px;
+            margin-right: 40px;
+
+            h1{
+                font-size: 60px;
+            }
+            h2{
+                font-size: 22px;
+            }
+
+            h3 {
+                font-size: 14px;
+            }
+
+        }
+        .logo-container {
+            max-width: 240px;
+            max-height: 240px;
+            margin-top: 70vh;
+            margin-left: 32%;
+        }
+    }
+  }
