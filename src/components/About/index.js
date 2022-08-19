@@ -20,7 +20,7 @@ const About = () => {
     return (
         <div className='container about'>
             <div className='text'>
-                <h1>
+                <h1 className='text-title'>
                     <Letters strArray={nameArray} letterClass={letterClass}
                     index={10}/>
                 </h1>

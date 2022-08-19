@@ -2,7 +2,7 @@
     position: absolute;
     left: 15%;
     transform: translateY(-10%);
-    width: 35%;
+    max-width: 35%;
     vertical-align: middle;
     display: table;
     max-height: 90%;
@@ -53,7 +53,7 @@
     width: 80%;
     height: fit-content;
     position: absolute;
-    right: 100px;
+    right: 5%;
     bottom: 20%;
     display: flex;
     justify-content: space-evenly;
@@ -65,9 +65,9 @@
         font-size: 18px;
         color: rgb(209, 76, 76);
         position: absolute;
-        left: -20px;
+        left: 1%;
         animation: glow 6s ease-in-out infinite;
-        top: 0;
+        top: -20%;
     }
     &::after{
         content: '</div>';
@@ -77,7 +77,7 @@
         line-height: 18px;
         color: rgb(209, 76, 76);
         position: absolute;
-        bottom: 0;
+        bottom: -10%;
         right: 10px;
         animation: glow 6s ease-in-out infinite;
     }

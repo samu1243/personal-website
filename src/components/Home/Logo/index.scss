@@ -1,15 +1,16 @@
 .logo-container{ 
-    height: 300px;
-    width: 300px;
+    max-height: 300px;
+    max-width: 300px;
     margin: auto;
-    margin-top: 650px;
+    margin-top: 60vh ;
+    
     &::before{
         content: '<svg>';
         color: rgb(209, 76, 76);
         font-family: 'La Belle Aurore';
         position: absolute;
         margin-top: -30px;
-        font-size: 18px;
+        font-size: clamp(8px, 0.5px + 2vw, 14px);
         margin-left: -20px;
         opacity: 0.6;
         animation: glow 6s ease-in-out infinite;
@@ -18,23 +19,24 @@
         content: '</svg>';
         color: rgb(209, 76, 76);
         font-family: 'La Belle Aurore';
-        font-size: 18px;
+        font-size: clamp(8px, 0.5px + 2vw, 14px);
         opacity: 0.6;
         position: absolute;
         bottom: 0;
         margin-left: 18px;
-        margin-bottom: -20px;
         animation: glow 6s ease-in-out infinite;
+        margin-bottom: 30px;
     }
 
     svg {
-        width: 100%;
-        height: auto;
+        max-width: 100%;
+        max-height: auto;
     }
 }
 .svg-container{
     stroke: rgb(209, 76, 76);
     stroke-width: 10;
+    position: relative;
 }
 
 @keyframes glow{

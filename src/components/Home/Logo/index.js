@@ -6,8 +6,7 @@ const Logo = () => {
 
     return (
       <div className="logo-container">
-        <svg xmlns="http://www.w3.org/2000/svg"
-     width="16.6667in" height="11.3444in"
+        <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet"
      viewBox="0 0 1500 1021">
         <g className='svg-container'>
   <motion.path  id='path' className='logo'

@@ -25,7 +25,7 @@
 }
 
 .container { 
-    width: 100%;
+    min-width: 100%;
     will-change: contents;
     height: 90%;
     min-height: 566px;
@@ -40,7 +40,7 @@
 }
 
 .about {
-    .text{
+    .text {
         position: absolute;
         left: 15%;
         transform: translateY(-10%);
@@ -49,8 +49,8 @@
         display: table;
         max-height: 90%;
         top: 20%;
-        h1 {
-            font-size: 53px;
+        .text-title {
+            font-size: clamp(25px, 0.5px + 4vw ,75px);
             font-family: 'Coolvetica';
             color: rgb(209, 76, 76);
             font-weight: 400;
@@ -63,7 +63,7 @@
               content: '<h1>';
               font-family: 'La Belle Aurore', cursive;
               color: rgb(209, 76, 76);
-              font-size: 18px;
+              font-size: clamp(8px, 0.5px + 2vw, 14px);
               position: absolute;
               margin-top: -10px;
               left: -10px;
@@ -76,7 +76,7 @@
               content: '</h1>';
               font-family: 'La Belle Aurore', cursive;
               color: rgb(209, 76, 76);
-              font-size: 18px;
+              font-size: clamp(8px, 0.5px + 2vw, 14px);
               line-height: 18px;
               position: absolute;
               left: -30px;
@@ -88,7 +88,7 @@
           }
       
           p {
-            font-size: 15px;
+            font-size: clamp(8px, 0.5px + 2vw, 14px);
             color: #fff;
             font-family: sans-serif;
             font-weight: 300;
@@ -110,7 +110,7 @@
             content: '<p>';
             font-family: 'La Belle Aurore', cursive;
             color: rgb(209, 76, 76);
-            font-size: 18px;
+            font-size: clamp(8px, 0.5px + 2vw, 14px);
             opacity: 0.6;
             animation: glow 6s ease-in-out infinite;
         }
@@ -118,7 +118,7 @@
             content: '</p>';
             font-family: 'La Belle Aurore', cursive;
             color: rgb(209, 76, 76);
-            font-size: 18px;
+            font-size: clamp(8px, 0.5px + 2vw, 14px);
             opacity: 0.6;
             animation: glow 6s ease-in-out infinite;
         }
