@@ -10,8 +10,8 @@
 }
 
 .draggable{
-  min-width: 500px;
-  min-height: 500px;
+  width: 500px;
+  max-height: 500px;
   margin-right: 80px;
 }
 
@@ -50,5 +50,28 @@
     &:hover{
       background-color: rgb(209, 76, 76);
       color: #8d8d8d;
+    }
+  }
+
+  @media (max-width: 500px) {
+
+    .text{
+      margin-left: 15vw;
+      margin-top: -10vh;
+    }
+
+    .draggable {
+      width: 250px;
+      height: 250px;
+      margin-top: 55vh;
+      margin-right: 10vw;
+    }
+    .item-icon{
+      width: 50px;
+      height: 50px;
+    }
+    .item{
+      max-width: 50px;
+      max-height: 50px;
     }
   }

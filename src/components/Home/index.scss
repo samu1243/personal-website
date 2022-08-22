@@ -114,7 +114,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     .home {
         overflow-y: hidden;
         overflow-x: hidden;
@@ -124,33 +124,34 @@
             max-width: 100%;
             left: 3%;
             h1{
-                font-size: 60px;
+                font-size: 36px;
                 width: 500px;
             }
         }
         .full-stack {
             max-width: 100%;
-            bottom: 34%;
-            margin-left: 150px;
-            margin-right: 40px;
+            bottom: 44%;
+            margin-left: 100px;
+            margin-right: 30px;
 
             h1{
-                font-size: 60px;
+                font-size: 36px;
+                
             }
             h2{
-                font-size: 22px;
+                font-size: 14px;
             }
 
             h3 {
-                font-size: 14px;
+                font-size: 8px;
             }
 
         }
         .logo-container {
-            max-width: 240px;
-            max-height: 240px;
-            margin-top: 70vh;
-            margin-left: 32%;
+            max-width: 220px;
+            max-height: 220px;
+            margin-top: 60vh;
+            margin-left: 26%;
         }
     }
   }

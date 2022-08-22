@@ -91,7 +91,7 @@
 .contact-form{
     margin-top: 5vh;
     width: 100%;
-    height: 40%;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,4 +101,52 @@ form {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+input[type='text'], input[type='email'] {
+    width: 20%;
+    border: 0;
+    background-color: #4d4d4e;
+    height: 5vh;
+    margin: 1vw 1vw;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 20px;
+    box-sizing: border-box;
+    &::placeholder{
+        color: rgb(209, 76, 76);
+    }
+
+}
+
+textarea{
+    width: 40%;
+    border: 0;
+    background-color: #4d4d4e;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px;
+    height: 20vh;
+    box-sizing: none;
+
+    &::placeholder{
+        color: rgb(209, 76, 76);
+    }
+}
+
+.submit-button {
+    color: rgb(209, 76, 76);
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid rgb(209, 76, 76);
+    background-color: rgb(51, 50, 50) ;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 14px;
+
+    &:hover{
+        color: #4d4d4e;
+        background-color: rgb(209, 76, 76);
+    }
 }
